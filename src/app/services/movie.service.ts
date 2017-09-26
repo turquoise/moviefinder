@@ -31,4 +31,9 @@ export class MovieService {
       .map(res => res.json());
   }
 
+  getMovie(id: string) {
+    return this._jsonp.get(`${this.url}movie/${id}?callback=JSONP_CALLBACK&api_key=${this.apikey}`)
+      .map( res => res.json() );
+  }
+
 }
