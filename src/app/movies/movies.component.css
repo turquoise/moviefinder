@@ -2,3 +2,22 @@
 img {
   width: 100%;
 }
+
+.jumbotron {
+  background-color: #37474f;
+  color: white;
+}
+
+button {
+  background-color: #b0bec5;
+  border: 1px solid #b0bec5;
+}
+
+button:hover, button:visited, button:link, button:active {
+  background-color: #90a4ae;
+  border: 1px solid #90a4ae;
+}
+
+.search {
+  margin-bottom: 20px;
+}
