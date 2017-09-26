@@ -9,13 +9,18 @@
           </div>
           <div class="col-md-7">
             <ul class="list-group">
-              <li class="list-group-item">Genres:
-                <span *ngFor="let genre of movie.genres">
-                  {{ genre.name }}
-                </span>
+              <li class="list-group-item">
+                <b>Genres: </b>
+                <ul>
+                  <li *ngFor="let genre of movie.genres">
+                    {{ genre.name }}
+                  </li>
+                </ul>
+              
+
               </li>
               <li class="list-group-item">
-                Release Date: {{ movie.release_date }}
+                <b>Release Date: </b> {{ movie.release_date }}
               </li>
             </ul>
             <br>

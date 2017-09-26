@@ -9,7 +9,7 @@ import { MovieService } from '../services/movie.service';
 })
 export class MovieComponent implements OnInit {
 
-  movie: Object;
+  movie:Array<Object>;
 
   constructor(
     private router: ActivatedRoute,
@@ -27,6 +27,7 @@ export class MovieComponent implements OnInit {
             .subscribe( movie => {
               //console.log(movie);
               this.movie = movie;
+              console.log(this.movie);
             })
         });
   }

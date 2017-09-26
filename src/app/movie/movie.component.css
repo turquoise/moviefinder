@@ -3,3 +3,19 @@
 .thumbnail {
   width: 80%;
 }
+
+.card {
+  background-color: #37474f;
+  color: white;
+}
+
+.list-group-item {
+  background-color:  #37474f;
+}
+b {
+  margin-right: 10px;
+}
+
+a {
+  color: white;
+}
